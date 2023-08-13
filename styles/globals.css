@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+  Note: The styles for this gradient grid background is heavily inspired by the creator of this amazing site (https://dub.sh) – all credits go to them! 
+*/
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  padding: 120px 24px 160px 24px;
+}
+
+@media screen and (max-width: 640px) {
+  .main {
+    padding: 0;
+  }
+}
+
+/* Tailwind Styles */
+
+.app {
+  @apply relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6;
+}
+
+.black_btn {
+  @apply rounded-md border border-gray-dark bg-primary-black py-2 px-5 text-primary-white transition-all hover:bg-primary-white hover:text-primary-black text-center text-sm font-opensans flex items-center justify-center;
+}
+
+.outline_btn {
+  @apply rounded-md border border-gray-dark bg-transparent py-2 px-5 text-primary-black transition-all hover:bg-primary-black hover:text-primary-white text-center text-sm font-opensans flex items-center justify-center;
+}
+
+.head_text {
+  @apply mt-1 text-6xl font-semibold leading-[1.15] text-primary-black sm:text-5xl max-sm:text-4xl;
+}
+
+.gray_gradient {
+  @apply bg-gradient-to-r font-bold from-gray-darker via-gray-dark to-gray-500/50 bg-clip-text text-transparent;
+}
+
+.blue_gradient {
+  @apply text-gray-dark;
+}
+
+.head_text_gradient {
+  @apply bg-gradient-to-r from-gray-darker via-gray-dark to-gray-500/50 bg-clip-text text-transparent;
+}
+
+.desc {
+  @apply mt-5 text-lg text-gray-400 sm:text-[1.07rem] max-w-3xl max-sm:text-sm;
+}
+
+.search_input {
+  @apply block w-full rounded-lg border border-gray-100 bg-white py-2.5 font-opensans pl-5 pr-12 text-sm shadow-md font-medium transition-all focus:shadow-lg focus:scale-[1.015] focus:transition focus:outline-none focus:ring-0;
+}
+
+.copy_btn {
+  @apply w-8 h-8 rounded-full bg-transparent border transition-all border-gray-light shadow-md hover:border-gray-dark hover:scale-90 flex justify-center items-center cursor-pointer;
+}
+
+.glassmorphism {
+  @apply rounded-lg bg-white shadow-xl p-6;
+}
+
+.prompt_layout {
+  @apply space-y-6 py-8 sm:columns-2 sm:gap-6 xl:columns-3;
+}
+
+/* Feed Component */
+.feed {
+  @apply mt-10 mx-auto w-full max-w-xl flex justify-center items-center flex-col gap-2;
+}
+
+/* Form Component */
+.form_textarea {
+  @apply w-full flex bg-primary-white rounded-lg h-[200px] mt-2 p-3 text-sm font-opensans text-primary-black outline-0;
+}
+
+.form_input {
+  @apply w-full flex bg-primary-white rounded-lg mt-2 p-3 text-sm font-opensans text-primary-black outline-0;
+}
+
+/* Nav Component */
+.logo_text {
+  @apply max-sm:hidden font-poppins font-medium text-2xl text-primary-black uppercase tracking-widest;
+}
+
+.dropdown {
+  @apply absolute right-0 top-full mt-3 w-full p-5 rounded-lg bg-white min-w-[210px] flex flex-col gap-2 justify-end items-end;
+}
+
+.dropdown_link {
+  @apply text-sm font-opensans text-gray-700 hover:text-gray-500 font-medium;
+}
+
+/* PromptCard Component */
+.prompt_card {
+  @apply flex-1 break-inside-avoid rounded-lg border-gray-100 shadow-md bg-white p-6 pb-4 transition-all hover:shadow-lg hover:transition-all hover:scale-[1.025]  md:w-[360px] w-full h-fit;
+}
+
+.flex-center {
+  @apply flex justify-center items-center;
+}
+
+.flex-start {
+  @apply flex justify-start items-start;
+}
+
+.flex-end {
+  @apply flex justify-end items-center;
+}
+
+.flex-between {
+  @apply flex justify-between items-center;
+}
+
+/* Footer component */
+.footer_icon {
+  @apply border cursor-pointer border-gray-dark transition-all shadow-md rounded-lg p-2 flex items-center justify-center mr-3 hover:scale-105 hover:transition hover:shadow-lg hover:blur-0;
+}
+
+/* Custom scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  @apply bg-gray-light;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-darker;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-primary-black;
+}
