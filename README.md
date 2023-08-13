@@ -1,4 +1,4 @@
-<!-- ![promptify-banner](https://github.com/vaibhavchaubey/Promptify/assets/88048439/eb6a6f7f-3481-4990-90de-df63b5339bce) -->
+![promptify-banner](https://github.com/Atharv-110/Promptify/assets/87393095/5fcd47f6-fce6-4b6c-a2e4-358fbc1d40af)
 # Promptify
 > Your cutting-edge prompting tool for exploring, crafting, and sharing ingenious prompts in the modern world of creativity and AI interaction.
 
@@ -109,4 +109,5 @@ root:.
         database.js
 ```
 # Demonstration
-<!-- https://github.com/vaibhavchaubey/Promptify/assets/88048439/d5ea442e-abb0-4c8c-be8b-970ef569303d -->
+https://github.com/Atharv-110/Promptify/assets/87393095/1d7d34ef-efca-4484-9f6f-a4176e731d4f
+
