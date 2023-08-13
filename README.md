@@ -1,4 +1,6 @@
 ![promptify-banner](https://github.com/Atharv-110/Promptify/assets/87393095/5fcd47f6-fce6-4b6c-a2e4-358fbc1d40af)
+<img width="960" alt="Screenshot 2023-08-11 224954" src="https://github.com/vaibhavchaubey/Promptify/assets/88048439/295a10d4-d944-4ed5-adb1-98fcfb0aa0c4">
+
 # Promptify
 > Your cutting-edge prompting tool for exploring, crafting, and sharing ingenious prompts in the modern world of creativity and AI interaction.
 
